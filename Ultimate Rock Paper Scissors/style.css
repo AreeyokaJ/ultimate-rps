@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2%;
+    -webkit-user-select: none;
+    user-select: none;
+   
+}
+
+#prompt{
+    font-size: 2vw;
+}
+
+img{
+    margin-bottom: 1%;
+    -webkit-user-drag: none;
+    height: 6vw;
+  
+}
+
+img:hover{
+    opacity: 45%;
+}
+
+img:active{
+    opacity: 100%;
+}
+
+.choices  {
+    align-self: start;
+    padding-left: 3%;
+    
+}
+
+.choices p {
+    margin: 0;
+}
+
+.scores {
+    align-self: start;
+    padding-left: 3%;
+}
+
+.scores p {
+    margin: 0;
+}
+
+.lost {
+    color: red;
+}
+
+.won {
+    color: green; 
+}
